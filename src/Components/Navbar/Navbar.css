@@ -1,5 +1,5 @@
 nav{
-    @apply w-full fixed bg-nude font-medium px-12;
+    @apply w-full fixed bg-nude font-normal px-12;
 }
 .inner-nav{
     @apply mx-auto;
