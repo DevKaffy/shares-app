@@ -6,6 +6,10 @@ Cloning a website with html, react, tailwindcss and css.
 
 ## Features
 - Home page
+- Purpose page
+- Careers page
+- Community page
+- Learn page
 
 ## Tech/framework used
 - Reactjs
