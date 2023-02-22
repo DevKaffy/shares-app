@@ -4,7 +4,7 @@ nav{
 .inner-nav{
     @apply mx-auto;
     display: grid;
-    grid-template-columns: 35rem 1fr;
+    grid-template-columns: 1.5fr 2fr;
 }
 .nav-logo img{
     @apply w-[8rem] h-[6rem] border-0 ;
