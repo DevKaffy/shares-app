@@ -1,0 +1,12 @@
+.hero-section{
+    @apply bg-nude px-8 py-[8rem];
+}
+.hero-inner{
+    @apply flex justify-between;
+}
+.left-section{
+    @apply pt-[30rem];
+}
+.right-section{
+@apply w-[40rem]
+}

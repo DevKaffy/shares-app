@@ -1,3 +1,15 @@
-nav img{
-    @apply w-[1rem] h-[1rem];
+nav{
+    @apply w-full fixed bg-nude grid grid-cols-2 px-12 mx-auto font-medium;
+}
+.nav-logo img{
+    @apply w-[8rem] h-[6rem];
+}
+.nav-items{
+    @apply flex items-center justify-between;
+}
+.nav-button{
+    @apply flex items-center gap-x-2;
+}
+button img{
+    @apply w-6 h-6;
 }

@@ -4,6 +4,7 @@ import Careers from './Pages/Careers/Careers'
 import Community from './Pages/Community/Community'
 import Learn from './Pages/Learn/Learn'
 import Purpose from './Pages/Purpose/Purpose'
+import Notfound from './Pages/Notfound'
 
 export default function App () {
  const router = createBrowserRouter([
@@ -26,6 +27,10 @@ export default function App () {
    {
      path: "/learn",
      element: <Learn />,
+   },
+   {
+     path: "*",
+     element: <Notfound/>,
    },
  ]);
 
