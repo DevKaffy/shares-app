@@ -10,3 +10,6 @@
 .right-section{
 @apply w-[40rem]
 }
+.navbar-scroll{
+    @apply bg-white
+}
