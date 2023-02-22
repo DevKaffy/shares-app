@@ -1,11 +1,12 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
+import PageLayout from '../../PageLayout/PageLayout'
+
 
 const Home = () => {
   return (
-    <div>
-        <Navbar/>
-    </div>
+    <PageLayout>
+
+    </PageLayout>
   )
 }
 

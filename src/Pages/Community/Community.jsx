@@ -1,8 +1,11 @@
 import React from 'react'
+import PageLayout from '../../PageLayout/PageLayout'
 
 const Community = () => {
   return (
-    <div>Community</div>
+    <PageLayout>
+      
+    </PageLayout>
   )
 }
 
