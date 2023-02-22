@@ -1,15 +1,12 @@
 .hero-section{
-    @apply bg-nude px-8 py-[8rem];
+    @apply bg-nude px-12 py-[8rem];
 }
 .hero-inner{
-    @apply flex justify-between;
+    @apply flex justify-between mx-auto;
 }
 .left-section{
     @apply pt-[30rem];
 }
 .right-section{
 @apply w-[40rem]
-}
-.navbar-scroll{
-    @apply bg-white
 }
