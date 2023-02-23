@@ -10,9 +10,9 @@ nav{
     @apply w-[8rem] h-[6rem] border-0 ;
 }
 .nav-items{
-    @apply flex items-center justify-between;
+    @apply lg:flex items-center justify-between hidden;
 }
-.nav-items :hover{
+.nav-pages :hover{
     @apply text-gray-700
 }
 .nav-button{
