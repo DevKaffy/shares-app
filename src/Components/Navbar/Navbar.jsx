@@ -44,9 +44,9 @@ const Navbar = () => {
             <img className="w-8 h-8" src="/menu.svg" alt="" />
           </div>
           <div
-            className={`absolute grid ${
+            className={`lg:hidden absolute grid ${
               showNavbar ? "right-4" : "-right-[10rem]"
-            } h-60 w-24 top-20 transition-all duration-150`}
+            } h-60 w-ful bg-[#16002c] text-white top-5 transition-all duration-150`}
           >
             <Link to="/purpose">Purpose</Link>
             <Link to="/community">Community</Link>
